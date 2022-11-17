@@ -11,7 +11,9 @@ export function Header() {
 
   return (
     <HeaderComponent>
-      <img src={logo} alt="The letter r underlined" />
+      <a href="/">
+        <img src={logo} alt="The letter r underlined" />
+      </a>
 
       <NavigationMenu>
         <ul>
