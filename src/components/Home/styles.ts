@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeComponent = styled.section`
   height: calc(100vh - 6rem);
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
