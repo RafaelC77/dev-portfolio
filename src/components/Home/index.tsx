@@ -20,8 +20,8 @@ export function Home() {
         </h2>
 
         <p>
-          Meu foco está em construir aplicações e páginas para web <br /> com
-          design responsivo e acessibilidade.
+          Meu foco está em construir aplicações e páginas para web com design
+          responsivo e acessibilidade.
         </p>
 
         <ProjectsButton>Confira meus projetos!</ProjectsButton>

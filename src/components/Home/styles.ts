@@ -8,6 +8,7 @@ export const HomeComponent = styled.section`
   justify-content: center;
   align-items: center;
   gap: 1rem;
+
   h1 {
     font-weight: 400;
     strong {
@@ -16,15 +17,18 @@ export const HomeComponent = styled.section`
       color: ${(props) => props.theme["white"]};
     }
   }
+
   h2 {
     font-size: 4rem;
     font-weight: 400;
     color: ${(props) => props.theme["green"]};
   }
+
   p {
     font-size: 1.25rem;
     color: ${(props) => props.theme["gray"]};
   }
+
   @media (max-width: 480px) {
     h2 {
       font-size: 3rem;
@@ -34,6 +38,7 @@ export const HomeComponent = styled.section`
 
 export const HomeInfo = styled.div`
   width: 60%;
+
   @media (max-width: 580px) {
     width: min-content;
     padding: 1rem;
@@ -46,18 +51,23 @@ export const SocialAccounts = styled.div`
   align-items: center;
   gap: 1rem;
   position: absolute;
-  left: 1rem;
-  bottom: 1rem;
+  right: 2rem;
+  bottom: 2rem;
+
   a {
     color: inherit;
     text-decoration: none;
   }
+
   svg {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2rem;
+    width: 2rem;
     transition: 0.2s;
+
     &:hover {
       color: ${(props) => props.theme["green"]};
+      width: 4rem;
+      height: 4rem;
     }
   }
 `;
@@ -68,20 +78,24 @@ export const ArrowDown = styled.div`
   border-width: 0 3px 3px 0;
   border-style: solid;
   border-color: ${(props) => props.theme["green"]};
+
   a {
     color: inherit;
     text-decoration: none;
   }
+
   @keyframes arrowMovement {
     0% {
       bottom: 2.5rem;
       opacity: 1;
     }
+
     100% {
       bottom: 1rem;
       opacity: 0;
     }
   }
+
   position: absolute;
   bottom: 1.5rem;
   transform: rotate(45deg);
@@ -97,5 +111,6 @@ export const ProjectsButton = styled.button`
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  font-weight: 400;
 `;
