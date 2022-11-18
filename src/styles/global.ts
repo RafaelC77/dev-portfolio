@@ -19,6 +19,11 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1rem;
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     @media (max-width: 992px) {
         html {
             font-size: 93.75%;

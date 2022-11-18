@@ -1,4 +1,5 @@
 import profilePic from "../../assets/profile-pic.jpg";
+import { Tag } from "../Tag";
 import { AboutComponent, Profile, SkillsList } from "./styles";
 
 export function About() {
@@ -23,12 +24,24 @@ export function About() {
           <h3>Skills:</h3>
 
           <SkillsList>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>NextJS</li>
-            <li>Typescript</li>
-            <li>Styled Components</li>
-            <li>Chakra UI</li>
+            <li>
+              <Tag text="Javascript" />
+            </li>
+            <li>
+              <Tag text="React" />
+            </li>
+            <li>
+              <Tag text="NextJS" />
+            </li>
+            <li>
+              <Tag text="Typescript" />
+            </li>
+            <li>
+              <Tag text="Styled Components" />
+            </li>
+            <li>
+              <Tag text="Chakra UI" />
+            </li>
           </SkillsList>
         </div>
       </Profile>

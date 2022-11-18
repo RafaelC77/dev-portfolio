@@ -27,6 +27,7 @@ export const HomeComponent = styled.section`
   p {
     font-size: 1.25rem;
     color: ${(props) => props.theme["gray"]};
+    margin-bottom: 2rem;
   }
 
   @media (max-width: 480px) {
@@ -102,15 +103,4 @@ export const ArrowDown = styled.div`
   animation-name: arrowMovement;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-`;
-
-export const ProjectsButton = styled.button`
-  background-color: ${(props) => props.theme["green"]};
-  border: none;
-  color: ${(props) => props.theme["black"]};
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  margin-top: 2rem;
-  font-weight: 400;
 `;

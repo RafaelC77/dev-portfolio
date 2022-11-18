@@ -46,11 +46,4 @@ export const ProjectDescription = styled.div`
 export const LinksContainer = styled.div`
   display: flex;
   gap: 1rem;
-
-  a {
-    text-decoration: none;
-    padding: 0.5rem;
-    background-color: ${(props) => props.theme["green"]};
-    border-radius: 4px;
-  }
 `;

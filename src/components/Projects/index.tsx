@@ -1,3 +1,4 @@
+import { Tag } from "../Tag";
 import {
   LinksContainer,
   ProjectContainer,
@@ -29,9 +30,13 @@ export function Projects() {
           </ul>
 
           <LinksContainer>
-            <a href="">Código fonte</a>
+            <a href="">
+              <Tag text="Código fonte" />
+            </a>
 
-            <a href="">Visitar página</a>
+            <a href="">
+              <Tag text="Visitar página" />
+            </a>
           </LinksContainer>
         </ProjectDescription>
       </ProjectContainer>

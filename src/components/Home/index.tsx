@@ -1,11 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import {
-  HomeComponent,
-  HomeInfo,
-  ArrowDown,
-  ProjectsButton,
-  SocialAccounts,
-} from "./styles";
+import { Tag } from "../Tag";
+import { HomeComponent, HomeInfo, ArrowDown, SocialAccounts } from "./styles";
 
 export function Home() {
   return (
@@ -24,7 +19,9 @@ export function Home() {
           responsivo e acessibilidade.
         </p>
 
-        <ProjectsButton>Confira meus projetos!</ProjectsButton>
+        <a href="">
+          <Tag text="Confira meus projetos!" />
+        </a>
       </HomeInfo>
 
       <SocialAccounts>

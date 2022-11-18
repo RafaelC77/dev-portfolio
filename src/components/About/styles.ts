@@ -55,11 +55,4 @@ export const SkillsList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-
-  li {
-    padding: 0.5rem;
-    background-color: ${(props) => props.theme["green"]};
-    border-radius: 4px;
-    color: ${(props) => props.theme["black"]};
-  }
 `;
