@@ -6,6 +6,7 @@ export const AboutComponent = styled.section`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 4rem 0;
 
   h2 {
     font-size: 2rem;
