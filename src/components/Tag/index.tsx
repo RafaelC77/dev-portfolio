@@ -2,8 +2,11 @@ import { TagComponent } from "./styles";
 
 interface TagProps {
   text: string;
+  changeBackground?: boolean;
 }
 
-export function Tag({ text }: TagProps) {
-  return <TagComponent>{text}</TagComponent>;
+export function Tag({ text, changeBackground = false }: TagProps) {
+  return (
+    <TagComponent changeBackground={changeBackground}>{text}</TagComponent>
+  );
 }

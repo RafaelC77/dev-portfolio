@@ -20,7 +20,7 @@ export function Home() {
         </p>
 
         <a href="">
-          <Tag text="Confira meus projetos!" />
+          <Tag text="Confira meus projetos!" changeBackground={true} />
         </a>
       </HomeInfo>
 

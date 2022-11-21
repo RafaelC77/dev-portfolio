@@ -31,11 +31,11 @@ export function Projects() {
 
           <LinksContainer>
             <a href="">
-              <Tag text="Código fonte" />
+              <Tag text="Código fonte" changeBackground={true} />
             </a>
 
             <a href="">
-              <Tag text="Visitar página" />
+              <Tag text="Visitar página" changeBackground={true} />
             </a>
           </LinksContainer>
         </ProjectDescription>
