@@ -27,6 +27,7 @@ export const Profile = styled.div`
     height: auto;
     box-shadow: -10px 10px ${(props) => props.theme["white"]};
     margin: 0 auto;
+    border-radius: 4px;
   }
 
   h3 {
