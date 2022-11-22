@@ -17,7 +17,7 @@ export const TagComponent = styled.div<TagProps>`
     props.changeBackground &&
     css`
       &:hover {
-        opacity: 0.7;
+        background-color: ${(props) => props.theme["green-dark"]};
       }
     `}
 `;

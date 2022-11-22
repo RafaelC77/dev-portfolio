@@ -17,6 +17,12 @@ export const ProjectsComponent = styled.section`
 
   ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 4rem 2rem;
   }
 `;
 
@@ -31,6 +37,12 @@ export const ProjectContainer = styled.div<ProjectProps>`
     height: 30rem;
     object-fit: cover;
     border-radius: 4px;
+  }
+
+  @media (max-width: 760px) {
+    img {
+      display: none;
+    }
   }
 `;
 
@@ -52,6 +64,19 @@ export const ProjectDescription = styled.div<ProjectProps>`
     display: flex;
     gap: 1rem;
     color: ${(props) => props.theme["gray"]};
+  }
+
+  @media (max-width: 760px) {
+    background-image: url("https://source.unsplash.com/random");
+    background-position: center;
+    background-color: ${(props) => props.theme["green-darker"]};
+    background-blend-mode: multiply;
+    padding: 4rem 1rem;
+    border-radius: 4px;
+    position: relative;
+
+    align-items: flex-start;
+    text-align: start;
   }
 `;
 
