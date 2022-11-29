@@ -12,6 +12,10 @@ export const GlobalStyle = createGlobalStyle`
         color: ${(props) => props.theme["gray-light"]};
         -webkit-font-smoothing: antialiased;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
     
     body, input, textarea, button {
         font-family: "Barlow", sans-serif;

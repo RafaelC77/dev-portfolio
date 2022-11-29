@@ -7,7 +7,7 @@ export function Contact() {
       <h2>Contato</h2>
 
       <p>
-        Estou a disposição para quaisquer informações. Responderei o mais breve
+        Estou à disposição para quaisquer informações. Responderei o mais breve
         possível.
       </p>
 
