@@ -25,10 +25,13 @@ export function Home() {
       </HomeInfo>
 
       <SocialAccounts>
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/rafaelguimaraesdev/"
+          target="_blank"
+        >
           <FaLinkedin />
         </a>
-        <a href="">
+        <a href="https://github.com/RafaelC77" target="_blank">
           <FaGithub />
         </a>
       </SocialAccounts>

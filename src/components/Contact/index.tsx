@@ -3,7 +3,7 @@ import { ContactComponent } from "./styles";
 
 export function Contact() {
   return (
-    <ContactComponent>
+    <ContactComponent id="contact">
       <h2>Contato</h2>
 
       <p>
