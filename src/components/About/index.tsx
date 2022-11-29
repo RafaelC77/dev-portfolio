@@ -1,6 +1,11 @@
 import profilePic from "../../assets/profile-pic.jpg";
 import { Tag } from "../Tag";
-import { AboutComponent, Profile, SkillsList } from "./styles";
+import {
+  AboutComponent,
+  PictureContainer,
+  Profile,
+  SkillsList,
+} from "./styles";
 
 export function About() {
   return (
@@ -8,7 +13,9 @@ export function About() {
       <h2>Sobre mim</h2>
 
       <Profile>
-        <img src={profilePic} alt="" />
+        <PictureContainer>
+          <img src={profilePic} alt="" />
+        </PictureContainer>
 
         <div>
           <p>

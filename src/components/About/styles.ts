@@ -6,7 +6,7 @@ export const AboutComponent = styled.section`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 4rem 0;
+  padding: 8rem 0;
 
   h2 {
     font-size: 2rem;
@@ -22,17 +22,48 @@ export const Profile = styled.div`
   align-items: flex-start;
   gap: 2rem;
 
-  img {
-    width: 14rem;
-    height: auto;
-    box-shadow: -10px 10px ${(props) => props.theme["white"]};
-    margin: 0 auto;
-    border-radius: 4px;
-  }
-
   h3 {
     margin-top: 2rem;
     color: ${(props) => props.theme["green"]};
+  }
+
+  @media (max-width: 780px) {
+    flex-direction: column-reverse;
+  }
+`;
+
+export const PictureContainer = styled.div`
+  position: relative;
+  border-radius: 4px;
+
+  img {
+    width: 14rem;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: -0.625rem 0.625rem ${(props) => props.theme["white"]};
+    transition: 0.2s;
+  }
+
+  &:hover {
+    img {
+      box-shadow: 0 0;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background-color: ${(props) => props.theme["green-dark"]};
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    opacity: 0.2;
+  }
+
+  &:hover::after {
+    display: none;
   }
 
   @media (max-width: 780px) {
