@@ -1,5 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { About } from "./components/About";
+import { Contact } from "./components/Contact";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { Projects } from "./components/Projects";
@@ -14,6 +15,7 @@ export function App() {
       <Home />
       <About />
       <Projects />
+      <Contact />
       <GlobalStyle />
     </ThemeProvider>
   );
