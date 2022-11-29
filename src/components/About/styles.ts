@@ -27,6 +27,10 @@ export const Profile = styled.div`
     color: ${(props) => props.theme["green"]};
   }
 
+  p {
+    text-align: justify;
+  }
+
   @media (max-width: 780px) {
     flex-direction: column-reverse;
   }
@@ -35,6 +39,7 @@ export const Profile = styled.div`
 export const PictureContainer = styled.div`
   position: relative;
   border-radius: 4px;
+  margin: 0 auto;
 
   img {
     width: 14rem;
