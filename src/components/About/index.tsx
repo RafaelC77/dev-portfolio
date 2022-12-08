@@ -19,13 +19,18 @@ export function About() {
 
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at
-            voluptatum nihil impedit quod consequuntur ad veniam nobis harum
-            architecto cupiditate consectetur illo necessitatibus, aut
-            exercitationem laudantium unde, quas vel? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Natus recusandae ipsam cum commodi!
-            Eveniet esse exercitationem nobis, ipsa dignissimos nemo molestiae
-            non minima, rem dolor, ipsam id ad velit tenetur?
+            Meu nome é Rafael, desenvolvo aplicações para web utilizando
+            principalmente ReactJS. Atualmente, tenho desenvolvido projetos
+            relacionados ao Front-end, que incluem e-commerce, dashboard, editor
+            de texto. Embora esteja focado nessa área, possuo experiência com
+            NodeJS.
+          </p>
+
+          <p>
+            Possuo formação em direito, porém sempre tive interesse pela área de
+            tecnologia, o que me levou a estudar sobre programação. Essa
+            experiência contribuiu para melhorar minha capacidade de
+            comunicação, de trabalhar em equipe e de lidar com prazos.
           </p>
 
           <h3>Skills:</h3>

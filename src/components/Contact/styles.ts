@@ -19,4 +19,8 @@ export const ContactComponent = styled.section`
   p {
     margin-bottom: 2rem;
   }
+
+  @media (max-width: 760px) {
+    padding: 4rem 2rem;
+  }
 `;

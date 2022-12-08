@@ -31,6 +31,10 @@ export const Profile = styled.div`
     text-align: justify;
   }
 
+  p + p {
+    margin-top: 0.5rem;
+  }
+
   @media (max-width: 780px) {
     flex-direction: column-reverse;
   }
