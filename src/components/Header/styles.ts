@@ -73,7 +73,9 @@ export const NavigationMenu = styled.nav`
       right: -11rem;
       align-items: flex-end;
       gap: 0;
+      background-color: ${(props) => props.theme["black"]};
       border: 2px solid ${(props) => props.theme["gray-light"]};
+      z-index: 999;
       transition: 0.2s ease-in;
       li {
         padding: 0.5rem 2rem;

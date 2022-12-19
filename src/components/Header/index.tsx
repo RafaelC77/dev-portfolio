@@ -18,18 +18,24 @@ export function Header() {
       <NavigationMenu>
         <ul>
           <li>
-            <a href="" className="active">
+            <a href="#" className="active" onClick={toggleMenu}>
               Home
             </a>
           </li>
           <li>
-            <a href="#about">Sobre</a>
+            <a href="#about" onClick={toggleMenu}>
+              Sobre
+            </a>
           </li>
           <li>
-            <a href="#projects">Projetos</a>
+            <a href="#projects" onClick={toggleMenu}>
+              Projetos
+            </a>
           </li>
           <li>
-            <a href="#contact">Contato</a>
+            <a href="#contact" onClick={toggleMenu}>
+              Contato
+            </a>
           </li>
         </ul>
 
