@@ -19,7 +19,7 @@ export function Home() {
           responsivo e acessibilidade.
         </p>
 
-        <a href="">
+        <a href="#projects">
           <Tag text="Confira meus projetos!" changeBackground={true} />
         </a>
       </HomeInfo>

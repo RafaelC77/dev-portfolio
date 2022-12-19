@@ -21,30 +21,27 @@ export function Projects() {
           return (
             <li key={project.title}>
               <ProjectContainer isOdd={!!isOdd}>
-                <img src="https://source.unsplash.com/random" alt="" />
+                <img src={project.image} alt="" />
 
-                <ProjectDescription isOdd={!!isOdd}>
-                  <h3>Project Title</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Totam dolorum magni soluta sunt iure? Iure porro itaque
-                    nulla ea! Dicta iure eos aliquam ipsa id error, in dolore
-                    commodi culpa.
-                  </p>
+                <ProjectDescription
+                  isOdd={!!isOdd}
+                  backgroundImage={project.image}
+                >
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
 
                   <ul>
-                    <li>React</li>
-                    <li>Styled Components</li>
-                    <li>React Hook Form</li>
-                    <li>Axios</li>
+                    {project.techsList.map((tech) => {
+                      return <li key={tech}>{tech}</li>;
+                    })}
                   </ul>
 
                   <LinksContainer>
-                    <a href="">
+                    <a href={project.githubUrl}>
                       <Tag text="Github" changeBackground={true} />
                     </a>
 
-                    <a href="">
+                    <a href={project.pageUrl}>
                       <Tag text="Visitar página" changeBackground={true} />
                     </a>
                   </LinksContainer>

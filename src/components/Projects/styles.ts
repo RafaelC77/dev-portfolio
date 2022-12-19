@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 interface ProjectProps {
   isOdd: boolean;
+  backgroundImage?: string;
 }
 
 export const ProjectsComponent = styled.section`
@@ -36,6 +37,7 @@ export const ProjectContainer = styled.div<ProjectProps>`
     width: 25rem;
     height: 30rem;
     object-fit: cover;
+    object-position: left;
     border-radius: 4px;
   }
 
@@ -67,8 +69,9 @@ export const ProjectDescription = styled.div<ProjectProps>`
   }
 
   @media (max-width: 760px) {
-    background-image: url("https://source.unsplash.com/random");
-    background-position: center;
+    background-image: url(${(props) => props.backgroundImage});
+    background-position: left;
+    background-size: cover;
     background-color: ${(props) => props.theme["green-darker"]};
     background-blend-mode: multiply;
     padding: 4rem 1rem;
