@@ -49,7 +49,7 @@ export const PictureContainer = styled.div`
     width: 14rem;
     margin: 0 auto;
     border-radius: 4px;
-    box-shadow: -0.625rem 0.625rem ${(props) => props.theme["white"]};
+    box-shadow: -0.625rem 0.625rem ${(props) => props.theme["green"]};
     transition: 0.2s;
   }
 
