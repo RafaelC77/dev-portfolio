@@ -82,14 +82,15 @@ export const ProjectDescription = styled.div<ProjectProps>`
     text-align: start;
 
     p {
-      background-color: ${(props) => props.theme["black"]};
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 1rem;
       border-radius: 4px;
+      text-align: justify;
     }
 
     h3,
     ul li {
-      background-color: ${(props) => props.theme["black"]};
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 0.25rem 0.5rem;
       border-radius: 4px;
     }
