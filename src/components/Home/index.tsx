@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { Tag } from "../Tag";
 import { HomeComponent, HomeInfo, ArrowDown, SocialAccounts } from "./styles";
 
@@ -33,6 +34,9 @@ export function Home() {
         </a>
         <a href="https://github.com/RafaelC77" target="_blank">
           <FaGithub />
+        </a>
+        <a href="mailto:rafael.guimaraes.dev@gmail.com" target="_blank">
+          <MdEmail />
         </a>
       </SocialAccounts>
 
