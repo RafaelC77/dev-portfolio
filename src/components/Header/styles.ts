@@ -1,17 +1,35 @@
 import styled from "styled-components";
 
-export const HeaderComponent = styled.header`
+interface HeaderComponentProps {
+  isHidden: boolean;
+}
+
+export const HeaderComponent = styled.header<HeaderComponentProps>`
   height: 6rem;
+  width: 100%;
   padding: 0 4rem;
+  position: fixed;
+  z-index: 999;
+  background-color: ${(props) => props.theme["black"]};
+  transform: translateY(${(props) => (props.isHidden ? "-6rem" : "0")});
+  transition: 0.2s;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .hide {
+    transform: translateY(-6rem);
+  }
+
   img {
     height: 3rem;
   }
+
   @media (max-width: 992px) {
     padding: 0 2rem;
   }
+
   @media (max-width: 480px) {
     padding: 0 1rem;
   }

@@ -8,8 +8,6 @@ import {
 } from "./styles";
 
 export function Projects() {
-  console.log(projects);
-
   return (
     <ProjectsComponent id="projects">
       <h2>Meus Projetos</h2>
