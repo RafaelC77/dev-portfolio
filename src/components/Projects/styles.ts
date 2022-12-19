@@ -80,6 +80,19 @@ export const ProjectDescription = styled.div<ProjectProps>`
 
     align-items: flex-start;
     text-align: start;
+
+    p {
+      background-color: ${(props) => props.theme["black"]};
+      padding: 1rem;
+      border-radius: 4px;
+    }
+
+    h3,
+    ul li {
+      background-color: ${(props) => props.theme["black"]};
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
   }
 `;
 
