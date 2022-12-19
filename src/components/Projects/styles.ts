@@ -7,7 +7,7 @@ interface ProjectProps {
 
 export const ProjectsComponent = styled.section`
   max-width: 1080px;
-  margin: 0 auto;
+  margin: 4rem auto;
   padding: 4rem 0;
 
   h2 {
