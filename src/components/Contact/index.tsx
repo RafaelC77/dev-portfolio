@@ -18,8 +18,6 @@ export function Contact() {
   } = useForm<IFormInput>();
 
   function handleSendMessage(data: IFormInput) {
-    console.log(data);
-
     const templateParams = {
       from_name: data.name,
       email: data.email,
