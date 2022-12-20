@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { HeaderComponent, NavigationMenu } from "./styles";
 import logo from "../../assets/logo-portfolio.png";
+import { HeaderComponent, NavigationMenu } from "./styles";
 
 export function Header() {
   const previousHeight = useRef(0);

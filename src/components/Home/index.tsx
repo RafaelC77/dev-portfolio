@@ -29,13 +29,22 @@ export function Home() {
         <a
           href="https://www.linkedin.com/in/rafaelguimaraesdev/"
           target="_blank"
+          rel="noreferer noopener"
         >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/RafaelC77" target="_blank">
+        <a
+          href="https://github.com/RafaelC77"
+          target="_blank"
+          rel="noreferer noopener"
+        >
           <FaGithub />
         </a>
-        <a href="mailto:rafael.guimaraes.dev@gmail.com" target="_blank">
+        <a
+          href="mailto:rafael.guimaraes.dev@gmail.com"
+          target="_blank"
+          rel="noreferer noopener"
+        >
           <MdEmail />
         </a>
       </SocialAccounts>
