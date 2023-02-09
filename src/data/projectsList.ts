@@ -11,7 +11,7 @@ const projectsList = [
       "Jest",
       "React Testing Library",
     ],
-    image: "src/assets/screenshot-ecommerce.png",
+    image: "/screenshot-ecommerce.png",
     githubUrl: "https://github.com/RafaelC77/gamer-shop",
     pageUrl: "https://gamer-shop.vercel.app/",
   },
@@ -20,7 +20,7 @@ const projectsList = [
     description:
       "Este é um projeto pesssoal desenvolvido para integrar portfolio, o qual simula o painel administrativo de um e-commerce. Desenvolvido com NextJS e React Query",
     techsList: ["NextJS", "Chakra-UI", "React-Query", "Axios"],
-    image: "src/assets/screenshot-dashboard.png",
+    image: "/screenshot-dashboard.png",
     githubUrl: "https://github.com/RafaelC77/portfolio-dashboard",
     pageUrl: "https://dashboard-rafaelc77.vercel.app/",
   },
@@ -29,7 +29,7 @@ const projectsList = [
     description:
       "Projeto desenvolvido para integrar portfólio, utilizando SlateJS, que consiste em um editor de texto em formato rich-text (RTF), onde é possível adicionar algumas formatações simples.",
     techsList: ["React", "Typescript", "SlateJS"],
-    image: "src/assets/screenshot-text-editor.png",
+    image: "/screenshot-text-editor.png",
     githubUrl: "https://github.com/RafaelC77/rich-text-editor",
     pageUrl: "https://rt-editor.netlify.app/",
   },
