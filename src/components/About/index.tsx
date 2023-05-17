@@ -22,8 +22,7 @@ export function About() {
             Meu nome é Rafael, desenvolvo aplicações para web utilizando
             principalmente ReactJS. Atualmente, tenho desenvolvido projetos
             relacionados ao Front-end, que incluem e-commerce, dashboard, editor
-            de texto. Embora esteja focado nessa área, possuo experiência com
-            NodeJS.
+            de texto. Além disso, também possuo experiência com NodeJS.
           </p>
 
           <p>
@@ -53,6 +52,12 @@ export function About() {
             </li>
             <li>
               <Tag text="Chakra UI" />
+            </li>
+            <li>
+              <Tag text="NodeJS" />
+            </li>
+            <li>
+              <Tag text="Redux" />
             </li>
           </SkillsList>
         </div>

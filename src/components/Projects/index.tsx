@@ -35,11 +35,11 @@ export function Projects() {
                   </ul>
 
                   <LinksContainer>
-                    <a href={project.githubUrl}>
+                    <a href={project.githubUrl} target="_blank">
                       <Tag text="Github" changeBackground={true} />
                     </a>
 
-                    <a href={project.pageUrl}>
+                    <a href={project.pageUrl} target="_blank">
                       <Tag text="Visitar página" changeBackground={true} />
                     </a>
                   </LinksContainer>

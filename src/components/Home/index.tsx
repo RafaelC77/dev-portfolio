@@ -12,7 +12,7 @@ export function Home() {
         </h1>
 
         <h2>
-          Desenvolvedor <b>Front-end</b>
+          Desenvolvedor <b>Full Stack</b>
         </h2>
 
         <p>
